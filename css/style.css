@@ -173,6 +173,16 @@ text-align: center;
   background: #333;
   color: white;
 }
+
+
+#navbar nav a:hover{
+  color: white;
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 18%, #00a7d6 32%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 18%,#00a7d6 32%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 18%,#00a7d6 32%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#00a7d6',GradientType=0 ); /* IE6-9 */
+}
 /*////////// LOGO //////////*/
 
 
